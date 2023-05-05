@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png"  class="logoAlura" alt="Logo Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+    
+            <div class="informacao">
+                <img src="imagens/exclamacao.png" id="aviso" alt="">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="btn-encripitar" onclick="btnEncripitar()">Criptografarar</button>
+                <button class="btn-desencripitar" onclick="btnDesencripitar()">Descripitografar</button>
+            </div>
+        </section>
+    
+        <section class="saida">
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+
+    </main>
+    <footer>
+        <p> Desenvolvido por Izabelle Abreu da silva - Turma 05</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
